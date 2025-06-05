@@ -39979,3 +39979,13 @@ footer.bg-dark {
     width: 100%;
   }
 }
+
+.d-none {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+}
