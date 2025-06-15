@@ -40016,4 +40016,8 @@ footer.bg-dark {
   .modal {
     padding: calc(var(--spacing) * 2);
   }
+
+  .navbar .navbar-brand img {
+    max-width: 90px;
+  }
 }
