@@ -23531,7 +23531,7 @@ textarea.form-control.is-invalid {
 .offcanvas.offcanvas-start {
   top: calc(var(--spacing) * 0);
   left: calc(var(--spacing) * 0);
-  width: 15rem;
+  width: 100%;
   --tw-translate-x: -100%;
   translate: var(--tw-translate-x) var(--tw-translate-y);
   --tw-border-style: solid;
@@ -23555,7 +23555,7 @@ textarea.form-control.is-invalid {
 .offcanvas.offcanvas-top {
   inset-inline: calc(var(--spacing) * 0);
   top: calc(var(--spacing) * 0);
-  height: 30vh;
+  height: 100vh;
   max-height: 100%;
   --tw-translate-y: -100%;
   translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -23567,7 +23567,7 @@ textarea.form-control.is-invalid {
 
 .offcanvas.offcanvas-bottom {
   inset-inline: calc(var(--spacing) * 0);
-  height: 30vh;
+  height: 100vh;
   max-height: 100%;
   --tw-translate-y: 100%;
   translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -34715,6 +34715,7 @@ footer.bg-dark {
   }
 
   .navbar-expand-lg .offcanvas-nav.offcanvas-end,
+  .navbar-expand-lg .offcanvas-nav.offcanvas-bottom,
   .navbar-expand-lg .offcanvas-nav.offcanvas-start {
     width: 100%;
     translate: none;
@@ -35029,7 +35030,7 @@ footer.bg-dark {
 
   .navbar-expand-lg .offcanvas-nav .offcanvas-body {
     flex-grow: 0;
-    overflow-y: unset;
+    overflow-y: auto;
   }
 
   .navbar-expand-lg .navbar-collapse .dropdown-menu {
@@ -39978,14 +39979,41 @@ footer.bg-dark {
   .img-w-custom {
     width: 100%;
   }
-}
 
-.d-none {
-  display: none !important;
-}
+  h4.card-hover {
+    font-size: 0.75rem;
+  }
 
-@media (min-width: 768px) {
-  .d-md-none {
+  .d-none {
     display: none !important;
+  }
+
+  @media (min-width: 768px) {
+    .d-md-none {
+      display: none !important;
+    }
+  }
+
+  .offcanvas-body .navbar-nav {
+    padding-top: 50px;
+  }
+
+  .navbar .container {
+    position: fixed !important;
+    bottom: 0px;
+    background-color: white;
+  }
+
+  footer {
+    padding-bottom: 70px;
+  }
+
+  .h4,
+  h4 {
+    font-size: 0.80rem;
+  }
+
+  .modal {
+    padding: calc(var(--spacing) * 2);
   }
 }

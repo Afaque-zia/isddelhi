@@ -14,8 +14,23 @@
   <link rel="stylesheet" type="text/css" href="assets/fonts/unicons/unicons.css">
   <link rel="stylesheet" href="assets/css/plugins.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="assets/css/colors/grape.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="preload" href="assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+  <style>
+    .navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
+      background: #605dba !important;
+      border-color: #c9c7f8 !important;
+      color: #ffffff !important;
+    }
 
+    @media (max-width: 991.98px) {
+      .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
+        color: #ffffff !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -37,7 +52,6 @@
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-bottom">
-
             <div class="offcanvas-body xl:!ml-auto lg:!ml-auto flex  flex-col !h-full">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
@@ -297,7 +311,6 @@
               </div>
               <!-- /.offcanvas-footer -->
             </div>
-            <!-- /.offcanvas-body -->
             <div class="offcanvas-header xl:!hidden lg:!hidden flex items-center justify-between flex-row p-6">
               <h3 class="!text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">Institute for Social
                 Democracy</h3>
@@ -305,6 +318,8 @@
                 class="btn-close btn-close-white !mr-[-0.75rem] m-0 p-0 leading-none !text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:text-white before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:!flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)]  "
                 data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+
+            <!-- /.offcanvas-body -->
           </div>
           <!-- /.navbar-collapse -->
           <div class="navbar-other flex !ml-auto">
@@ -327,25 +342,16 @@
       <!-- /.navbar -->
     </header>
     <!-- /header -->
-    <section
-      class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 !text-white bg-no-repeat bg-[center_center] bg-cover relative z-0 !bg-fixed before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
-      data-image-src="assets/img/photos/bg3.jpg">
+    <section class="wrapper  pt-36  !bg-[#edf2fc]">
       <div
-        class="container pt-28 pb-40 xl:pt-36 lg:pt-36 md:pt-36 xl:pb-[12.5rem] lg:pb-[12.5rem] md:pb-[12.5rem] !text-center">
+        class="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center">
         <div class="flex flex-wrap mx-[-15px]">
-          <div class="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
-            <h1 class="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3 !text-white">Get
-              in Touch</h1>
-            <nav class="inline-block" aria-label="breadcrumb">
-              <ol class="breadcrumb  flex flex-wrap bg-[none] p-0 !rounded-none list-none !mb-[20px]">
-                <li class="breadcrumb-item flex !text-[#60697b]"><a class="!text-white hover:text-white"
-                    href="#">Home</a></li>
-                <li
-                  class="breadcrumb-item flex !text-white !pl-2 before:font-normal before:!flex before:items-center before:text-[rgba(255,255,255,.5)] before:content-['\e931'] before:text-[0.9rem] before:-mt-px before:!pr-2 before:font-Unicons active"
-                  aria-current="page">Contact</li>
-              </ol>
-            </nav>
-            <!-- /nav -->
+          <div class="md:w-9/12 lg:w-7/12 xl:w-5/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
+            <h1 class="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3">We Strive For
+            </h1>
+            <p class="lead xxl:!px-[2.5rem] !leading-[1.65] text-[0.9rem] font-medium">ISD is based on the vision of a
+              democratic, secular, and peaceful society. A society based on the mutual respect of rights of each
+              individual and of human development.</p>
           </div>
           <!-- /column -->
         </div>
@@ -354,218 +360,189 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section
-      class="wrapper !bg-[#ffffff]   relative border-0 upper-end before:top-[-4rem] before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-[#fefefe] before:content-[''] before:block before:absolute before:z-0 before:border-y-transparent before:border-0 before:border-solid before:right-0">
-      <div class="container pb-12">
-        <div class="flex flex-wrap mx-[-15px] !mb-[4.5rem] md:!mb-24">
-          <div class="xl:w-10/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !mt-[-9rem]">
-            <div class="card">
-              <div class="flex flex-wrap mx-0">
-                <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] max-w-full !self-stretch">
-                  <div class="map map-full rounded-t-[0.4rem] rounded-lg-start h-full min-h-[15rem]">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14017.992628523969!2d77.15647045541994!3d28.5548002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d9521ac6eef%3A0xb87f60b83639fec0!2sINSTITUTE%20for%20SOCIAL%20DEMOCRACY!5e0!3m2!1sen!2sin!4v1748960487791!5m2!1sen!2sin"
-                      style="width:100%; height: 100%; border:0" allowfullscreen="" loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-                  <!-- /.map -->
-                </div>
-                <!--/column -->
-                <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] max-w-full">
-                  <div class="p-10 xl:!p-[4.5rem] lg:!p-[4.5rem] md:!p-12">
-                    <div class="flex flex-row">
-                      <div>
-                        <div
-                          class="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                          <i class="uil uil-location-pin-alt before:content-['\ebd8']"></i>
-                        </div>
-                      </div>
-                      <div class="!self-start !justify-start">
-                        <h5 class="!mb-1">Address</h5>
-                        <address class=" not-italic !leading-[inherit] !mb-4">INSTITUTE for SOCIAL DEMOCRACY Flat No.
-                          110, Numberdar House, 62-A, Laxmi Market, Munirka, New Delhi-110067</address>
-                      </div>
-                    </div>
-                    <!--/div -->
-                    <div class="flex flex-row">
-                      <div>
-                        <div
-                          class="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                          <i class="uil uil-phone-volume before:content-['\ec50']"></i>
-                        </div>
-                      </div>
-                      <div>
-                        <h5 class="!mb-1">Phone</h5>
-                        <p><a href="tel:091-11-26177904">091-11-26177904</a> <br><a
-                            href="tel:091-11-26177904">091-11-26177904</a></p>
-                      </div>
-                    </div>
-                    <!--/div -->
-                    <div class="flex flex-row">
-                      <div>
-                        <div
-                          class="icon !text-[#3f78e0] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-4 !mt-[-0.25rem]">
-                          <i class="uil uil-envelope before:content-['\eac8']"></i>
-                        </div>
-                      </div>
-                      <div>
-                        <h5 class="!mb-1">E-mail</h5>
-                        <p class="!mb-0"><a href="mailto:notowar.isd@gmail.com"
-                            class="!text-[#60697b]">notowar.isd@gmail.com</a></p>
-                        </p>
-                      </div>
-                    </div>
-                    <!--/div -->
-                  </div>
-                  <!--/div -->
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="flex flex-wrap mx-[-15px]">
+    <section class="wrapper !bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
+      <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
           <div
-            class="xl:w-8/12 xl:!ml-[16.66666667%] lg:w-10/12 lg:!ml-[8.33333333%] w-full flex-[0_0_auto] !px-[15px] max-w-full">
-            <h2 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3 !text-center">
-              Drop Us a Line</h2>
-            <p class="lead !leading-[1.65] text-[0.9rem] font-medium !text-center !mb-10">Reach out to us from our
-              contact form and we will get back to you shortly.</p>
-            <form class="contact-form needs-validation" method="post"
-              action="https://sandbox-tailwind-template.netlify.app/assets/php/contact.php" novalidate>
-              <div class="messages"></div>
-              <div class="flex flex-wrap mx-[-10px]">
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-                  <div class="form-floating relative !mb-4">
-                    <input id="form_name" type="text" name="name"
-                      class=" form-control  relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out     focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset]   focus-visible:!border-[rgba(63,120,224,0.5)]   placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
-                      placeholder="" required>
-                    <label for="form_name"
-                      class="!text-[#959ca9] !mb-2 !inline-block text-[.75rem] !absolute !z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 ">First
-                      Name *</label>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your first name. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-                  <div class="form-floating relative !mb-4">
-                    <input id="form_lastname" type="text" name="surname"
-                      class=" form-control  relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out     focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset]   focus-visible:!border-[rgba(63,120,224,0.5)]   placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
-                      placeholder="" required>
-                    <label for="form_lastname"
-                      class="!text-[#959ca9] !mb-2 !inline-block text-[.75rem] !absolute !z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 ">Last
-                      Name *</label>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your last name. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-                  <div class="form-floating relative !mb-4">
-                    <input id="form_email" type="email" name="email"
-                      class=" form-control  relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out     focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset]   focus-visible:!border-[rgba(63,120,224,0.5)]   placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
-                      placeholder="" required>
-                    <label for="form_email"
-                      class="!text-[#959ca9] !mb-2 !inline-block text-[.75rem] !absolute !z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 ">Email
-                      *</label>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please provide a valid email address. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-                  <div class="form-select-wrapper !mb-4">
-                    <select class="form-select" id="form-select" name="department" required>
-                      <option selected disabled value="">Select a department</option>
-                      <option value="Sales">Sales</option>
-                      <option value="Marketing">Marketing</option>
-                      <option value="Customer Support">Customer Support</option>
-                    </select>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please select a department. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="w-full flex-[0_0_auto] !px-[15px] max-w-full">
-                  <div class="form-floating relative !mb-4">
-                    <textarea id="form_message" name="message"
-                      class=" form-control  relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out     focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset]   focus-visible:!border-[rgba(63,120,224,0.5)]   placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
-                      placeholder="" style="height: 150px" required></textarea>
-                    <label for="form_message"
-                      class="!text-[#959ca9] !mb-2 !inline-block text-[.75rem] !absolute !z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 ">Message
-                      *</label>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your messsage. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="w-full flex-[0_0_auto] !px-[15px] max-w-full !text-center">
-                  <input type="submit"
-                    class="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0]   active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-send !mb-3 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
-                    value="Send message">
-                  <p class="!text-[#aab0bc]"><strong>*</strong> These fields are required.</p>
-                </div>
-                <!-- /column -->
-              </div>
-              <!-- /.row -->
-            </form>
-            <!-- /form -->
+            class="md:w-8/12 lg:w-6/12 xl:w-5/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px] xl:!order-2 lg:!order-2 !relative">
+            <div class="shape !bg-[#edf2fc] !rounded-[50%] rellax !w-[10rem] !h-[10rem] absolute z-[1]"
+              data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+            <figure class="!rounded-[.4rem] z-[2] relative"><img class="!rounded-[.4rem] "
+                src="../../assets/img/photos/about7.jpg" alt="image">
+            </figure>
           </div>
-          <!-- /column -->
+          <!--/column -->
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+            <h2 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3">We Strive For
+            </h2>
+            <p class="lead !text-[1.05rem] !leading-[1.6] font-medium">ISD is based on the vision of a democratic,
+              secular, and peaceful society. </p>
+            <p class="!mb-6">A society based on the mutual respect of rights of each individual and of human
+              development.</p>
+            <h4 class="">We belive in</h4>
+            <p class="!mb-6">Accepting identities and differences, empathizing with the socio-political and cultural
+              aspirations of various social groups and opening dialogue without questioning intentions.</p>
+
+          </div>
+          <!--/column -->
         </div>
-        <!-- /.row -->
+        <!--/.row -->
       </div>
       <!-- /.container -->
+
     </section>
     <!-- /section -->
-    <section
-      class="wrapper image-wrapper bg-auto no-overlay bg-image !text-center bg-map bg-[center_center] bg-no-repeat !bg-scroll relative z-[0]"
-      data-image-src="assets/img/map.png">
-      <div class="container pt-0 pb-[4.5rem] xl:pt-24 lg:pt-24 md:pt-24 xl:pb-32 lg:pb-32 md:pb-32">
-        <div class="flex flex-wrap mx-[-15px]">
-          <div class="lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
-            <h3 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-8 xl:!px-14">We
-              are trusted by over 5000+ People. <br> Join us now.</h3>
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /column -->
-        <div class="flex flex-wrap mx-[-15px]">
-          <div class="md:w-10/12 lg:w-9/12 xl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
-            <div class="flex flex-wrap mx-[-15px] items-center counter-wrapper !mt-[-20px] xl:!mt-0 lg:!mt-0 md:!mt-0">
-              <div
-                class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !text-center !mt-[20px] xl:!mt-0 lg:!mt-0 md:!mt-0">
-                <h3
-                  class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem]  !text-[#3f78e0]">
-                  7518</h3>
-                <p class=" text-[0.8rem] font-medium !mb-0">Completed Projects</p>
-              </div>
-              <!--/column -->
-              <div
-                class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !text-center !mt-[20px] xl:!mt-0 lg:!mt-0 md:!mt-0">
-                <h3
-                  class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem]  !text-[#3f78e0]">
-                  5472</h3>
-                <p class=" text-[0.8rem] font-medium !mb-0">Helped People</p>
-              </div>
-              <!--/column -->
-              <div
-                class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !text-center !mt-[20px] xl:!mt-0 lg:!mt-0 md:!mt-0">
-                <h3
-                  class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem]  !text-[#3f78e0]">
-                  218</h3>
-                <p class=" text-[0.8rem] font-medium !mb-0">Expert Employees</p>
+    <section id="snippet-2" class="wrapper !bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
+      <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-70px] items-center">
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[70px] !relative">
+
+            <div class="flex flex-wrap mx-[-12.5px] !mt-[-25px] items-center">
+
+              <div class="xl:w-12/12 lg:w-12/12 md:w-12/12 w-full flex-[0_0_auto] px-[12.5px] max-w-full !mt-[25px]">
+                <figure class="rounded-[0.4rem]"><img class="rounded-[0.4rem]"
+                    src="../../assets/img/photos/bal-mela.png" alt="image"></figure>
               </div>
               <!--/column -->
             </div>
             <!--/.row -->
           </div>
-          <!-- /column -->
+          <!--/column -->
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[70px]">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 390.3"
+              data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/handshake.svg"
+              class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] !mb-4">
+              <path class="lineal-stroke"
+                d="M508.4 133.5L378.5 3.7c-4.9-4.9-12.8-4.9-17.6 0l-73.1 73.1-14.4-14.4c-4.9-4.9-12.8-4.9-17.6 0l-22.9 22.9-81.8-81.6c-4.9-4.9-12.8-4.9-17.6 0L3.7 133.5c-4.9 4.9-4.9 12.8 0 17.6L85.6 233c4.9 4.9 12.8 4.9 17.6 0l52.1-52.1 26.5 26.5c.3.3.6.6 1 .9 5 4 12.2 3.7 16.7-.9L256 151l120.7 120.6-13 13-103.6-103.4c-4.9-4.9-12.8-4.9-17.6 0-.3.3-.6.6-.9 1-4 5-3.7 12.2.9 16.7l123.8 123.8-13 13-123.8-123.9c-5-4.7-12.9-4.6-17.6.4-4.6 4.8-4.6 12.4 0 17.2L315.3 333l-13 13-7.7-7.7-95.9-95.8c-4.5-4.5-11.7-4.9-16.7-.9-.4.3-.7.5-1 .9-1.2 1.2-2.1 2.6-2.7 4.1-.3.7-.5 1.5-.7 2.3-.1.4-.1.8-.2 1.2-.4 3.7 1 7.4 3.6 10l43.5 43.5 43.5 43.5-13 13-115-115c-4.9-4.9-12.8-4.9-17.6 0-4.9 4.9-4.9 12.8 0 17.6l123.8 123.9c4.9 4.9 12.8 4.9 17.6 0l21.9-21.9 7.7 7.7c4.8 4.9 12.7 4.9 17.6 0l21.9-21.9 11.5 11.5c4.9 4.9 12.8 4.9 17.6 0l30.7-30.7c4.9-4.9 4.9-12.8 0-17.6l-11.5-11.5 21.9-21.9c4.9-4.9 4.9-12.8 0-17.6L264.8 124.5c-4.9-4.9-12.8-4.9-17.6 0l-56.6 56.6-9.2-9.2 83.1-83.1 14.4 14.4 3.1 3.2.4.4 126.3 126.3c4.9 4.9 12.8 4.9 17.6 0l81.9-81.9c5-4.9 5-12.8.2-17.7z">
+              </path>
+              <path class="lineal-fill"
+                d="M30.106 142.324L142.323 30.107 206.6 94.382 94.382 206.6zm275.29-47.939l64.276-64.276 112.216 112.217-64.275 64.276z">
+              </path>
+            </svg>
+            <h3 class="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3] !mb-3">Our Vision</h3>
+            <h3 class=" font-bold !mb-5">Unity in
+              Diversity with Mutual Respect</h3>
+            <p class="!mb-7">To build a social structure based on peace, harmony and democratic values while accepting
+              social and cultural diversity and establishing dialogue with mutual respect.</p>
+            <div class="flex flex-wrap mx-[-15px] counter-wrapper !mt-[-30px]">
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                <h3
+                  class="counter !text-[#3f78e0] xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">
+                  117518</h3>
+                <p class="!text-[0.8rem] font-medium !mb-0">Life Effected</p>
+              </div>
+              <!--/column -->
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                <h3
+                  class="counter !text-[#3f78e0] xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">
+                  472</h3>
+                <p class="!text-[0.8rem] font-medium !mb-0">Completed Projects</p>
+              </div>
+              <!--/column -->
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
+                <h3
+                  class="counter !text-[#3f78e0] xl:!text-[2rem] !text-[calc(1.325rem_+_0.9vw)] !tracking-[normal] !leading-none !mb-2">
+                  1184</h3>
+                <p class="!text-[0.8rem] font-medium !mb-0">Expert Members</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="snippet-4" class="wrapper !bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
+      <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full !relative xl:!order-2 lg:!order-2">
+            <div
+              class="shape bg-dot primary bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)] rellax !w-[6rem] !h-[10rem] absolute z-[1] opacity-50"
+              data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
+            <div class="flex flex-wrap !relative overlap-grid-2">
+              <div
+                class="item xl:w-[70%] xl:z-[3] xl:ml-[30%] xl:!mt-0 lg:w-[70%] lg:z-[3] lg:ml-[30%] lg:!mt-0 md:w-[70%] md:z-[3] md:ml-[30%] md:!mt-0">
+                <figure class="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative"><img
+                    class="!rounded-[.4rem] " src="../../assets/img/photos/about2.jpg" alt="image"></figure>
+              </div>
+              <div
+                class="item xl:w-[55%] xl:!mt-[-45%] xl:z-[4] xl:ml-0 lg:w-[55%] lg:!mt-[-45%] lg:z-[4] lg:ml-0 md:w-[55%] md:!mt-[-45%] md:z-[4] md:ml-0">
+                <figure class="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative"><img
+                    class="!rounded-[.4rem] " src="../../assets/img/photos/about3.jpg" alt="image"></figure>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+              data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/target.svg"
+              class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] !mb-4">
+              <circle class="lineal-fill" cx="283.8" cy="283.8" r="143"></circle>
+              <path class="lineal-stroke"
+                d="M283.8 441.8c-87.1 0-158-70.9-158-158s70.9-158 158-158 158 70.9 158 158-70.9 158-158 158zm0-286.1c-70.7 0-128.1 57.3-128.1 128.1S213 411.9 283.8 411.9s128.1-57.3 128.1-128.1c-.1-70.7-57.4-128-128.1-128.1z">
+              </path>
+              <path class="lineal-fill"
+                d="M283.8 210.5c40.5 0 73.3 32.8 73.3 73.3s-32.8 73.3-73.3 73.3-73.3-32.8-73.3-73.3"></path>
+              <path class="lineal-stroke"
+                d="M283.8 372.1c-48.7-.1-88.2-39.5-88.2-88.3.2-8.2 7.1-14.8 15.3-14.5 7.9.2 14.3 6.6 14.5 14.5 0 32.2 26.1 58.4 58.4 58.4s58.4-26.1 58.4-58.4-26.1-58.4-58.4-58.4c-8.2-.2-14.8-7.1-14.5-15.3.2-7.9 6.6-14.3 14.5-14.5 48.7-.5 88.7 38.6 89.2 87.3s-38.6 88.7-87.3 89.2h-1.9z">
+              </path>
+              <path class="lineal-fill" d="M107.9 55.1l-5.3 47.5-47.5 5.3-40.2-40.1 52.9-52.9z"></path>
+              <path class="lineal-stroke"
+                d="M283.8 55.7c-55.3 0-108.8 20.1-150.4 56.7l-15.2-15.2 4.5-40.4c.5-4.5-1.1-9-4.3-12.2L78.3 4.4c-5.8-5.8-15.3-5.8-21.1 0L4.4 57.2c-5.8 5.8-5.8 15.3 0 21.1l40.1 40.1c2.8 2.8 6.6 4.4 10.6 4.4.5 0 1.1 0 1.6-.1l40.4-4.5 15.2 15.2c-36.6 41.5-56.7 95-56.7 150.4C55.7 409.6 158 512 283.8 512c66.2 0 129.1-28.7 172.4-78.7 5.6-6.1 5.1-15.6-1-21.1s-15.6-5.1-21.1 1l-.5.5c-37.7 43.4-92.3 68.4-149.8 68.4-109.3 0-198.3-89-198.3-198.3 0-47.4 17-93.3 48-129.2l140.2 140.2c5.8 5.8 15.3 5.8 21.1 0s5.8-15.3 0-21.1L154.6 133.5c35.9-31 81.8-48 129.2-48 109.4 0 198.3 89 198.3 198.3 0 8.3 6.7 14.9 14.9 14.9s14.9-6.7 14.9-14.9C512 158 409.6 55.7 283.8 55.7zM36.1 67.8l31.7-31.7 24.5 24.5-3.2 28.5-28.5 3.2-24.5-24.5z">
+              </path>
+            </svg>
+            <h2 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3">Our Mission
+            </h2>
+            <h3 class=" font-bold  !mb-3">Strengthening Democracy Through Shared Heritage</h3>
+            <p class="lead !text-[1.05rem] !leading-[1.6] font-medium">To identify, understand and collect, different
+              forms of Composite Heritage at the community level, through research and dialogues;</p>
+            <p class="!mb-6">Mainstreaming of the concept of Composite Heritage through different mediums for the sake
+            <p class="lead !text-[1.05rem] !leading-[1.6] font-medium">To encourage the youth, like-minded groups and
+              different peace networks at the South Asia Level, to contribute to peace and harmony by enhancing their
+              knowledge and social analysis.</p>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper !bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
+      <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+        <div class="flex flex-wrap mx-[-15px] md:mx-[-20px] lg:mx-[-20px] xl:mx-[-35px] !mt-[-30px] items-center">
+          <div
+            class="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full xl:!order-2 lg:!order-2 !mx-auto !mt-[30px]">
+            <div class="img-mask mask-2"><img src="../../assets/img/photos/about30.jpg" alt="image"></div>
+          </div>
+          <!--/column -->
+          <div
+            class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full !mt-[30px]">
+            <h2 class="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3]">Our Belief
+            </h2>
+            <p class="lead !text-[1.05rem] !leading-[1.6] font-medium">Belief in
+              Dialogue, Dignity, and Democracy</p>
+            <p>ISD believes in establishing a dialogue with different social groups and connects with them with full
+              respect towards their social and cultural aspirations and without doubting their intentions. ISD dreams of
+              building a secular and democratic society based on human development and dignity of human rights.
+
+            </p>
+            <a href="./contact.html"
+              class="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0]   active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">Lets
+              Connect</a>
+          </div>
+          <!--/column -->
         </div>
         <!-- /.row -->
       </div>
@@ -573,6 +550,8 @@
     </section>
     <!-- /section -->
   </div>
+  <!-- /.content-wrapper -->
+  <!-- progress wrapper -->
   <footer class="!bg-[#21262c] shrink-0">
     <div class="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
       <div class="!mt-10"></div>
@@ -670,8 +649,8 @@
         d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/theme.js"></script>
+  <script src="../../assets/js/plugins.js"></script>
+  <script src="../../assets/js/theme.js"></script>
 </body>
 
 </html>
