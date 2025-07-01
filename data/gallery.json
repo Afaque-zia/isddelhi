@@ -1,0 +1,550 @@
+[
+    {
+        "location": "Allahabad",
+        "mainImage": "./assets/photogallery/Learning-Visit-Allahabad/01.jpg",
+        "events": [
+            {
+                "name": "Learning-Visit-Allahabad",
+                "coverImage": "./assets/photogallery/Learning-Visit-Allahabad/01.jpg",
+                "images": [
+                    "./assets/photogallery/Learning-Visit-Allahabad/01.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/02.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/03.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/04.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/05.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/06.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/07.jpg",
+                    "./assets/photogallery/Learning-Visit-Allahabad/08.jpg"
+                ]
+            },
+            {
+                "name": "Allahabad-Holi-Milan",
+                "coverImage": "./assets/photogallery/Allahabad-Holi-Milan/01.jpg",
+                "images": [
+                    "./assets/photogallery/Allahabad-Holi-Milan/01.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/02.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/03.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/04.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/05.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/06.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/07.jpg",
+                    "./assets/photogallery/Allahabad-Holi-Milan/08.jpg"
+                ]
+            },
+            {
+                "name": "Allahabad-Summer-Camp-with-Children",
+                "coverImage": "./assets/photogallery/Allahabad-Summer-Camp-with-Children/01.jpg",
+                "images": [
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/01.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/02.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/03.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/04.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/05.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/06.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/07.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/08.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/09.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/10.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/11.jpg",
+                    "./assets/photogallery/Allahabad-Summer-Camp-with-Children/12.jpg"
+                ]
+            },
+            {
+                "name": "Allahabad-Womens-Day",
+                "coverImage": "./assets/photogallery/Allahabad-Womens-Day/01.jpg",
+                "images": [
+                    "./assets/photogallery/Allahabad-Womens-Day/01.jpg",
+                    "./assets/photogallery/Allahabad-Womens-Day/02.jpg",
+                    "./assets/photogallery/Allahabad-Womens-Day/03.jpg",
+                    "./assets/photogallery/Allahabad-Womens-Day/04.jpg",
+                    "./assets/photogallery/Allahabad-Womens-Day/05.jpg",
+                    "./assets/photogallery/Allahabad-Womens-Day/06.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Bangalore",
+        "mainImage": "./assets/photogallery/CH-workshop-in-Bangalore/01.jpg",
+        "events": [
+            {
+                "name": "CH-workshop-in-Bangalore",
+                "coverImage": "./assets/photogallery/CH-workshop-in-Bangalore/01.jpg",
+                "images": [
+                    "./assets/photogallery/CH-workshop-in-Bangalore/01.jpg",
+                    "./assets/photogallery/CH-workshop-in-Bangalore/02.jpg",
+                    "./assets/photogallery/CH-workshop-in-Bangalore/03.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Dehradun",
+        "mainImage": "./assets/photogallery/CH-Workshop-in-Dehradun-2017/01.jpg",
+        "events": [
+            {
+                "name": "CH-Workshop-in-Dehradun-2017",
+                "coverImage": "./assets/photogallery/CH-Workshop-in-Dehradun-2017/01.jpg",
+                "images": [
+                    "./assets/photogallery/CH-Workshop-in-Dehradun-2017/01.jpg",
+                    "./assets/photogallery/CH-Workshop-in-Dehradun-2017/02.jpg",
+                    "./assets/photogallery/CH-Workshop-in-Dehradun-2017/03.jpg",
+                    "./assets/photogallery/CH-Workshop-in-Dehradun-2017/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Delhi",
+        "mainImage": "./assets/photogallery/DelhiColoniesRefuseToCelebrate/01.jpg",
+        "events": [
+            {
+                "name": "DelhiColoniesRefuseToCelebrate",
+                "coverImage": "./assets/photogallery/DelhiColoniesRefuseToCelebrate/01.jpg",
+                "images": [
+                    "./assets/photogallery/DelhiColoniesRefuseToCelebrate/01.jpg",
+                    "./assets/photogallery/DelhiColoniesRefuseToCelebrate/02.jpg",
+                    "./assets/photogallery/DelhiColoniesRefuseToCelebrate/03.jpg",
+                    "./assets/photogallery/DelhiColoniesRefuseToCelebrate/04.jpg"
+                ]
+            },
+            {
+                "name": "Gender-Workshop-2020",
+                "coverImage": "./assets/photogallery/Gender-Workshop-2020/01.jpg",
+                "images": [
+                    "./assets/photogallery/Gender-Workshop-2020/01.jpg",
+                    "./assets/photogallery/Gender-Workshop-2020/02.jpg",
+                    "./assets/photogallery/Gender-Workshop-2020/03.jpg",
+                    "./assets/photogallery/Gender-Workshop-2020/04.jpg",
+                    "./assets/photogallery/Gender-Workshop-2020/05.jpg",
+                    "./assets/photogallery/Gender-Workshop-2020/06.jpg"
+                ]
+            },
+            {
+                "name": "LCP-Youth-Convention-2018",
+                "coverImage": "./assets/photogallery/LCP-Youth-Convention-2018/01.jpg",
+                "images": [
+                    "./assets/photogallery/LCP-Youth-Convention-2018/01.jpg",
+                    "./assets/photogallery/LCP-Youth-Convention-2018/02.jpg",
+                    "./assets/photogallery/LCP-Youth-Convention-2018/03.jpg",
+                    "./assets/photogallery/LCP-Youth-Convention-2018/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Dhaka",
+        "mainImage": "./assets/photogallery/Dhaka-Workshop-2019/01.jpg",
+        "events": [
+            {
+                "name": "Dhaka-Workshop-2019",
+                "coverImage": "./assets/photogallery/Dhaka-Workshop-2019/01.jpg",
+                "images": [
+                    "./assets/photogallery/Dhaka-Workshop-2019/01.jpg",
+                    "./assets/photogallery/Dhaka-Workshop-2019/02.jpg",
+                    "./assets/photogallery/Dhaka-Workshop-2019/03.jpg",
+                    "./assets/photogallery/Dhaka-Workshop-2019/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Himachal Pradesh",
+        "mainImage": "./assets/photogallery/LCP-Meeting-in-Himachal/01.jpg",
+        "events": [
+            {
+                "name": "LCP-Meeting-in-Himachal",
+                "coverImage": "./assets/photogallery/LCP-Meeting-in-Himachal/01.jpg",
+                "images": [
+                    "./assets/photogallery/LCP-Meeting-in-Himachal/01.jpg",
+                    "./assets/photogallery/LCP-Meeting-in-Himachal/02.jpg",
+                    "./assets/photogallery/LCP-Meeting-in-Himachal/03.jpg"
+                ]
+            },
+            {
+                "name": "Himachal-Pradesh-Chetru-Vith-Mela",
+                "coverImage": "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/01.jpg",
+                "images": [
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/01.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/02.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/03.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/04.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/05.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Chetru-Vith-Mela/06.jpg"
+                ]
+            },
+            {
+                "name": "Himachal-Pradesh-Children-and-Youth-Taking",
+                "coverImage": "./assets/photogallery/Himachal-Pradesh-Children-and-Youth-Taking/01.jpg",
+                "images": [
+                    "./assets/photogallery/Himachal-Pradesh-Children-and-Youth-Taking/01.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Children-and-Youth-Taking/02.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Children-and-Youth-Taking/03.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Children-and-Youth-Taking/04.jpg"
+                ]
+            },
+            {
+                "name": "Himachal-Pradesh-CH-Workshop-with-Students",
+                "coverImage": "./assets/photogallery/Himachal-Pradesh-CH-Workshop-with-Students/01.jpg",
+                "images": [
+                    "./assets/photogallery/Himachal-Pradesh-CH-Workshop-with-Students/01.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-CH-Workshop-with-Students/02.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-CH-Workshop-with-Students/03.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-CH-Workshop-with-Students/04.jpg"
+                ]
+            },
+            {
+                "name": "Himachal-Pradesh-Different-Activites-in-Society",
+                "coverImage": "./assets/photogallery/Himachal-Pradesh-Different-Activites-in-Society/01.jpg",
+                "images": [
+                    "./assets/photogallery/Himachal-Pradesh-Different-Activites-in-Society/01.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Different-Activites-in-Society/02.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Different-Activites-in-Society/03.jpg",
+                    "./assets/photogallery/Himachal-Pradesh-Different-Activites-in-Society/04.jpg"
+                ]
+            },
+            {
+                "name": "LCP-Workshop-with-Youth-in-Himachal-2017",
+                "coverImage": "./assets/photogallery/LCP-Workshop-with-Youth-in-Himachal-2017/01.jpg",
+                "images": [
+                    "./assets/photogallery/LCP-Workshop-with-Youth-in-Himachal-2017/01.jpg",
+                    "./assets/photogallery/LCP-Workshop-with-Youth-in-Himachal-2017/02.jpg",
+                    "./assets/photogallery/LCP-Workshop-with-Youth-in-Himachal-2017/03.jpg",
+                    "./assets/photogallery/LCP-Workshop-with-Youth-in-Himachal-2017/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Hullas",
+        "mainImage": "./assets/photogallery/Hullas_2011/01.jpg",
+        "events": [
+            {
+                "name": "Hullas_2011",
+                "coverImage": "./assets/photogallery/Hullas_2011/01.jpg",
+                "images": [
+                    "./assets/photogallery/Hullas_2011/01.jpg",
+                    "./assets/photogallery/Hullas_2011/02.jpg",
+                    "./assets/photogallery/Hullas_2011/03.jpg",
+                    "./assets/photogallery/Hullas_2011/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "ISD",
+        "mainImage": "./assets/photogallery/LCPJointAssessmentOfISD/01.jpg",
+        "events": [
+            {
+                "name": "LCPJointAssessmentOfISD",
+                "coverImage": "./assets/photogallery/LCPJointAssessmentOfISD/01.jpg",
+                "images": [
+                    "./assets/photogallery/LCPJointAssessmentOfISD/01.jpg",
+                    "./assets/photogallery/LCPJointAssessmentOfISD/02.jpg",
+                    "./assets/photogallery/LCPJointAssessmentOfISD/03.jpg",
+                    "./assets/photogallery/LCPJointAssessmentOfISD/04.jpg"
+                ]
+            },
+            {
+                "name": "ISD-Represented-at-Peace-Practitioners-Research-Conference",
+                "coverImage": "./assets/photogallery/ISD-Represented-at-Peace-Practitioners-Research-Conference/01.jpg",
+                "images": [
+                    "./assets/photogallery/ISD-Represented-at-Peace-Practitioners-Research-Conference/01.jpg",
+                    "./assets/photogallery/ISD-Represented-at-Peace-Practitioners-Research-Conference/02.jpg",
+                    "./assets/photogallery/ISD-Represented-at-Peace-Practitioners-Research-Conference/03.jpg",
+                    "./assets/photogallery/ISD-Represented-at-Peace-Practitioners-Research-Conference/04.jpg"
+                ]
+            },
+            {
+                "name": "OD-Workshop",
+                "coverImage": "./assets/photogallery/OD-Workshop/01.jpg",
+                "images": [
+                    "./assets/photogallery/OD-Workshop/01.jpg",
+                    "./assets/photogallery/OD-Workshop/02.jpg",
+                    "./assets/photogallery/OD-Workshop/03.jpg",
+                    "./assets/photogallery/OD-Workshop/04.jpg"
+                ]
+            },
+            {
+                "name": "Presenting-of-ISD-Diary",
+                "coverImage": "./assets/photogallery/Presenting-of-ISD-Diary/01.jpg",
+                "images": [
+                    "./assets/photogallery/Presenting-of-ISD-Diary/01.jpg",
+                    "./assets/photogallery/Presenting-of-ISD-Diary/02.jpg",
+                    "./assets/photogallery/Presenting-of-ISD-Diary/03.jpg",
+                    "./assets/photogallery/Presenting-of-ISD-Diary/04.jpg"
+                ]
+            },
+            {
+                "name": "Remembering-Khurshid-2018",
+                "coverImage": "./assets/photogallery/Remembering-Khurshid-2018/01.jpg",
+                "images": [
+                    "./assets/photogallery/Remembering-Khurshid-2018/01.jpg",
+                    "./assets/photogallery/Remembering-Khurshid-2018/02.jpg",
+                    "./assets/photogallery/Remembering-Khurshid-2018/03.jpg",
+                    "./assets/photogallery/Remembering-Khurshid-2018/04.jpg"
+                ]
+            },
+            {
+                "name": "RememberingKhurshidSeminar",
+                "coverImage": "./assets/photogallery/RememberingKhurshidSeminar/01.jpg",
+                "images": [
+                    "./assets/photogallery/RememberingKhurshidSeminar/01.jpg",
+                    "./assets/photogallery/RememberingKhurshidSeminar/02.jpg",
+                    "./assets/photogallery/RememberingKhurshidSeminar/03.jpg",
+                    "./assets/photogallery/RememberingKhurshidSeminar/04.jpg"
+                ]
+            },
+            {
+                "name": "Sirjan_2011",
+                "coverImage": "./assets/photogallery/Sirjan_2011/01.jpg",
+                "images": [
+                    "./assets/photogallery/Sirjan_2011/01.jpg",
+                    "./assets/photogallery/Sirjan_2011/02.jpg",
+                    "./assets/photogallery/Sirjan_2011/03.jpg",
+                    "./assets/photogallery/Sirjan_2011/04.jpg"
+                ]
+            },
+            {
+                "name": "Sirjan-2018",
+                "coverImage": "./assets/photogallery/Sirjan-2018/01.jpg",
+                "images": [
+                    "./assets/photogallery/Sirjan-2018/01.jpg",
+                    "./assets/photogallery/Sirjan-2018/02.jpg",
+                    "./assets/photogallery/Sirjan-2018/03.jpg",
+                    "./assets/photogallery/Sirjan-2018/04.jpg"
+                ]
+            },
+            {
+                "name": "WorkshoponCompositeHeritage",
+                "coverImage": "./assets/photogallery/WorkshoponCompositeHeritage/01.jpg",
+                "images": [
+                    "./assets/photogallery/WorkshoponCompositeHeritage/01.jpg",
+                    "./assets/photogallery/WorkshoponCompositeHeritage/02.jpg",
+                    "./assets/photogallery/WorkshoponCompositeHeritage/03.jpg",
+                    "./assets/photogallery/WorkshoponCompositeHeritage/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Jammu and Kashmir",
+        "mainImage": "./assets/photogallery/Interaction-with-Children-in-Kashmir/01.jpg",
+        "events": [
+            {
+                "name": "Interaction-with-Children-in-Kashmir",
+                "coverImage": "./assets/photogallery/Interaction-with-Children-in-Kashmir/01.jpg",
+                "images": [
+                    "./assets/photogallery/Interaction-with-Children-in-Kashmir/01.jpg",
+                    "./assets/photogallery/Interaction-with-Children-in-Kashmir/02.jpg",
+                    "./assets/photogallery/Interaction-with-Children-in-Kashmir/03.jpg",
+                    "./assets/photogallery/Interaction-with-Children-in-Kashmir/04.jpg"
+                ]
+            },
+            {
+                "name": "Interaction-with-Community-about-Traditional",
+                "coverImage": "./assets/photogallery/Interaction-with-Community-about-Traditional/01.jpg",
+                "images": [
+                    "./assets/photogallery/Interaction-with-Community-about-Traditional/01.jpg",
+                    "./assets/photogallery/Interaction-with-Community-about-Traditional/02.jpg",
+                    "./assets/photogallery/Interaction-with-Community-about-Traditional/03.jpg",
+                    "./assets/photogallery/Interaction-with-Community-about-Traditional/04.jpg"
+                ]
+            },
+            {
+                "name": "Jammu-and-Kashmir-Covid-time-Education",
+                "coverImage": "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/01.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/02.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/03.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/04.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Covid-time-Education/05.jpg"
+                ]
+            },
+            {
+                "name": "Jammu-and-Kashmir-Different-Activities",
+                "coverImage": "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/01.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/02.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/03.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/04.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/05.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/06.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/07.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Different-Activities/08.jpg"
+                ]
+            },
+            {
+                "name": "Jammu-and-Kashmir-Relief-Material",
+                "coverImage": "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/01.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/02.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/03.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/04.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/05.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/06.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/07.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/08.jpg",
+                    "./assets/photogallery/Jammu-and-Kashmir-Relief-Material/09.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Jaunpur",
+        "mainImage": "./assets/photogallery/Jaunpur-Bal-Mela-2019/01.jpg",
+        "events": [
+            {
+                "name": "Jaunpur-Bal-Mela-2019",
+                "coverImage": "./assets/photogallery/Jaunpur-Bal-Mela-2019/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jaunpur-Bal-Mela-2019/01.jpg",
+                    "./assets/photogallery/Jaunpur-Bal-Mela-2019/02.jpg",
+                    "./assets/photogallery/Jaunpur-Bal-Mela-2019/03.jpg",
+                    "./assets/photogallery/Jaunpur-Bal-Mela-2019/04.jpg"
+                ]
+            },
+            {
+                "name": "Jaunpur-CH-Workshop-with-Madarsa-Students-2019",
+                "coverImage": "./assets/photogallery/Jaunpur-CH-Workshop-with-Madarsa-Students-2019/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jaunpur-CH-Workshop-with-Madarsa-Students-2019/01.jpg",
+                    "./assets/photogallery/Jaunpur-CH-Workshop-with-Madarsa-Students-2019/02.jpg",
+                    "./assets/photogallery/Jaunpur-CH-Workshop-with-Madarsa-Students-2019/03.jpg",
+                    "./assets/photogallery/Jaunpur-CH-Workshop-with-Madarsa-Students-2019/04.jpg"
+                ]
+            },
+            {
+                "name": "Jaunpur-Relief-Material",
+                "coverImage": "./assets/photogallery/Jaunpur-Relief-Material/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jaunpur-Relief-Material/01.jpg",
+                    "./assets/photogallery/Jaunpur-Relief-Material/02.jpg",
+                    "./assets/photogallery/Jaunpur-Relief-Material/03.jpg",
+                    "./assets/photogallery/Jaunpur-Relief-Material/04.jpg"
+                ]
+            },
+            {
+                "name": "Jaunpur-Womens-Day",
+                "coverImage": "./assets/photogallery/Jaunpur-Womens-Day/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jaunpur-Womens-Day/01.jpg",
+                    "./assets/photogallery/Jaunpur-Womens-Day/02.jpg",
+                    "./assets/photogallery/Jaunpur-Womens-Day/03.jpg",
+                    "./assets/photogallery/Jaunpur-Womens-Day/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Jharkhand",
+        "mainImage": "./assets/photogallery/Learning-Visit-Jharkhand/01.jpg",
+        "events": [
+            {
+                "name": "Learning-Visit-Jharkhand",
+                "coverImage": "./assets/photogallery/Learning-Visit-Jharkhand/01.jpg",
+                "images": [
+                    "./assets/photogallery/Learning-Visit-Jharkhand/01.jpg",
+                    "./assets/photogallery/Learning-Visit-Jharkhand/02.jpg",
+                    "./assets/photogallery/Learning-Visit-Jharkhand/03.jpg",
+                    "./assets/photogallery/Learning-Visit-Jharkhand/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-CH-Workshop-with-Youths-and-Students",
+                "coverImage": "./assets/photogallery/Jharkhand-CH-Workshop-with-Youths-and-Students/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-CH-Workshop-with-Youths-and-Students/01.jpg",
+                    "./assets/photogallery/Jharkhand-CH-Workshop-with-Youths-and-Students/02.jpg",
+                    "./assets/photogallery/Jharkhand-CH-Workshop-with-Youths-and-Students/03.jpg",
+                    "./assets/photogallery/Jharkhand-CH-Workshop-with-Youths-and-Students/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village",
+                "coverImage": "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/01.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/02.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/03.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/04.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/05.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/06.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/07.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/08.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/09.jpg",
+                    "./assets/photogallery/Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village/10.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019",
+                "coverImage": "./assets/photogallery/Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019/01.jpg",
+                    "./assets/photogallery/Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019/02.jpg",
+                    "./assets/photogallery/Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019/03.jpg",
+                    "./assets/photogallery/Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School",
+                "coverImage": "./assets/photogallery/Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School/01.jpg",
+                    "./assets/photogallery/Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School/02.jpg",
+                    "./assets/photogallery/Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School/03.jpg",
+                    "./assets/photogallery/Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Street-Play-and-Street-Theatre",
+                "coverImage": "./assets/photogallery/Jharkhand-Street-Play-and-Street-Theatre/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Street-Play-and-Street-Theatre/01.jpg",
+                    "./assets/photogallery/Jharkhand-Street-Play-and-Street-Theatre/02.jpg",
+                    "./assets/photogallery/Jharkhand-Street-Play-and-Street-Theatre/03.jpg",
+                    "./assets/photogallery/Jharkhand-Street-Play-and-Street-Theatre/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019",
+                "coverImage": "./assets/photogallery/Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019/01.jpg",
+                    "./assets/photogallery/Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019/02.jpg",
+                    "./assets/photogallery/Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019/03.jpg",
+                    "./assets/photogallery/Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019/04.jpg"
+                ]
+            },
+            {
+                "name": "Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School",
+                "coverImage": "./assets/photogallery/Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School/01.jpg",
+                "images": [
+                    "./assets/photogallery/Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School/01.jpg",
+                    "./assets/photogallery/Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School/02.jpg",
+                    "./assets/photogallery/Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School/03.jpg",
+                    "./assets/photogallery/Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School/04.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Tamilnadu",
+        "mainImage": "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/01.jpg",
+        "events": [
+            {
+                "name": "Accompaniment-at-Vembar-Tamilnadu-2020",
+                "coverImage": "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/01.jpg",
+                "images": [
+                    "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/01.jpg",
+                    "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/02.jpg",
+                    "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/03.jpg",
+                    "./assets/photogallery/Accompaniment-at-Vembar-Tamilnadu-2020/04.jpg"
+                ]
+            }
+        ]
+    }
+]

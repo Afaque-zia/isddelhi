@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/img/photos/p2.jpg",
+        "title": "Oct 23 - Mar 24 | Issue 72-73",
+        "description": "THE coalescence of cultural practices and traditions...",
+        "year": 2024
+    },
+    {
+        "id": 2,
+        "image": "./assets/img/photos/p2.jpg",
+        "title": "Apr 24 - Jun 24 | Issue 74",
+        "description": "A deep dive into the evolving artistic expressions...",
+        "year": 2023
+    },
+    {
+        "id": 3,
+        "image": "./assets/img/photos/p2.jpg",
+        "title": "Apr 25 - Jun 25 | Issue 75",
+        "description": "In the year 1982, the international community came forward...",
+        "year": 2025
+    }
+]
