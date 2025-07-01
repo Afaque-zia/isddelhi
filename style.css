@@ -4561,7 +4561,7 @@
   }
 
   .\!bg-\[\#d71f21\] {
-    background-color: #d71f21 !important;
+    background-color: #343f52 !important;
   }
 
   .\!bg-\[\#747ed1\] {
@@ -4609,7 +4609,7 @@
   }
 
   .\!bg-\[\#e668b3\] {
-    background-color: #e668b3 !important;
+    background-color: #4757cf !important;
   }
 
   .\!bg-\[\#e6e5f4\] {
@@ -7643,7 +7643,7 @@
   }
 
   .\!text-\[\#e668b3\] {
-    color: #e668b3 !important;
+    color: #4757cf !important;
   }
 
   .\!text-\[\#e2626b\] {
@@ -13528,7 +13528,7 @@
   .hover\:\!border-\[\#e668b3\] {
     &:hover {
       @media (hover: hover) {
-        border-color: #e668b3 !important;
+        border-color: #4757cf !important;
       }
     }
   }
@@ -13888,7 +13888,7 @@
   .hover\:\!text-\[\#e668b3\] {
     &:hover {
       @media (hover: hover) {
-        color: #e668b3 !important;
+        color: #4757cf !important;
       }
     }
   }
@@ -14176,7 +14176,7 @@
 
   .focus\:\!text-\[\#e668b3\] {
     &:focus {
-      color: #e668b3 !important;
+      color: #4757cf !important;
     }
   }
 
@@ -29248,7 +29248,7 @@ img.svg-inject {
 }
 
 .solid-mono.text-fuchsia .fill-primary {
-  fill: #e668b3 !important;
+  fill: #4757cf !important;
 }
 
 .solid-mono.text-sky .fill-secondary {
@@ -30872,11 +30872,12 @@ footer.bg-dark {
   }
 }
 
+/* 
 @media (min-width:1200px) and (max-width:1399.98px) {
   .mega-menu-scroll {
     height: 26.2rem;
   }
-}
+} */
 
 @media (min-width:1200px) {
   .navbar-expand-xl {
