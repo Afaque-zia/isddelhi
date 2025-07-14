@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
   <link rel="stylesheet" href="assets/css/colors/grape.css">
   <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/accordian.css">
   <link rel="preload" href="assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
     .navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
       background: #605dba !important;
@@ -35,10 +37,14 @@
   <div class="grow shrink-0">
     <header class="!absolute w-full">
       <div class="gradient-5 !text-white font-bold !text-[.75rem] !mb-1 !relative" style="z-index: 1;">
-        <div class="container py-2 !text-center">
-          <p class="!mb-0">✨ Institute for Social Democracy (ISD), <b>Peace, Harmony and Democracy.</b> <a href=""
+        <div class="container py-2 !text-center d-flex flex-wrap justify-center">
+          <p class="!mb-0 me-5">✨ Institute for Social Democracy (ISD), <b>Peace, Harmony and Democracy.</b> <a href=""
               class="!text-white hover inline-flex items-center">here <i
                 class="uil uil-arrow-up-right before:content-['\e950']"></i></a></p>
+          <a href="" class="mx-1"><img src="./assets/img/icons/solid/youtube.svg" width="20" alt=""></a>
+          <a href="" class="mx-1"><img src="./assets/img/icons/solid/instagram.svg" width="20" alt=""></a>
+          <a href="" class="mx-1"><img src="./assets/img/icons/solid/facebook.svg" width="20" alt=""></a>
+          <a href="" class="mx-1"><img src="./assets/img/icons/solid/linkedin.svg" width="20" alt=""></a>
         </div>
         <!-- /.container -->
       </div>
@@ -56,8 +62,8 @@
                   <a class="nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
                     href="#" data-bs-toggle="dropdown">About Us</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./about.html'>About
-                        ISD</a>
+                    <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./about.html'>Our
+                        Story</a>
                     </li>
                     <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./westrivefor.html'>We
                         Strive For</a></li>
@@ -65,219 +71,78 @@
                         Strategy</a></li>
                     <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./our-team.html'>Our
                         Team</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
-                    href="#" data-bs-toggle="dropdown">Popular Material</a>
-                  <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
-                    <li class="mega-menu-content mega-menu-scroll">
-                      <ul
-                        class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-5 mx-0 xl:mx-[-10px] lg:mx-[-10px] xl:!mt-[-10px] lg:!mt-[-10px] !pl-0 list-none">
-                        <li class="xl:!px-[10px] xl:!mt-[10px] lg:!px-[10px] lg:!mt-[10px]">
-                          <a class='dropdown-item' href='./sach.html'>
-                            <figure class="!rounded-[.4rem] lift hidden xl:block lg:block"><img loading="lazy"
-                                class="!rounded-[.4rem]" src="assets/img/readings/mi1.jpg" alt="image">
-                            </figure>
-                            <span class="xl:!hidden lg:!hidden">Sach (English)</span>
-                          </a>
-                        </li>
-                        <li class="xl:!px-[10px] xl:!mt-[10px] lg:!px-[10px] lg:!mt-[10px]">
-                          <a class='dropdown-item' href=''>
-                            <figure class="!rounded-[.4rem] lift hidden xl:block lg:block"><img loading="lazy"
-                                class="!rounded-[.4rem]" src="assets/img/readings/mi2.jpg" alt="image">
-                            </figure>
-                            <span class="xl:!hidden lg:!hidden">Samrath (Hindi)</span>
-                          </a>
-                        </li>
-                        <li class="xl:!px-[10px] xl:!mt-[10px] lg:!px-[10px] lg:!mt-[10px]">
-                          <a class='dropdown-item' href=''>
-                            <figure class="!rounded-[.4rem] lift hidden xl:block lg:block"><img loading="lazy"
-                                class="!rounded-[.4rem]" src="assets/img/readings/mi3.jpg" alt="image">
-                            </figure>
-                            <span class="xl:!hidden lg:!hidden">Handbook</span>
-                          </a>
-                        </li>
-                        <li class="xl:!px-[10px] xl:!mt-[10px] lg:!px-[10px] lg:!mt-[10px]">
-                          <a class='dropdown-item' href=''>
-                            <figure class="!rounded-[.4rem] lift hidden xl:block lg:block"><img loading="lazy"
-                                class="!rounded-[.4rem]" src="assets/img/readings/mi5.jpg" alt="image">
-                            </figure>
-                            <span class="xl:!hidden lg:!hidden">Booklet (Hindi,English)</span>
-                          </a>
-                        </li>
-                        <li class="xl:!px-[10px] xl:!mt-[10px] lg:!px-[10px] lg:!mt-[10px]">
-                          <a class='dropdown-item' href=''>
-                            <figure class="!rounded-[.4rem] lift hidden xl:block lg:block"><img loading="lazy"
-                                class="!rounded-[.4rem]" src="assets/img/readings/mi6.jpg" alt="image">
-                            </figure>
-                            <span class="xl:!hidden lg:!hidden">Annual Report (Hindi,English)</span>
-                          </a>
+                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#"
+                        data-bs-toggle="dropdown">Governance</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class='dropdown-item' href=''>Financial Reports</a></li>
+                        <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">Policies</a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a class='dropdown-item' href=''>POSH Policy</a></li>
+                          </ul>
                         </li>
                       </ul>
                     </li>
-                    <!--/.mega-menu-content-->
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
+                    href="#" data-bs-toggle="dropdown">Media & Publications</a>
+                  <ul class="dropdown-menu">
+
+                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#"
+                        data-bs-toggle="dropdown">Popular Material </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class='dropdown-item' href=''>SACH</a></li>
+                        <li class="nav-item"><a class='dropdown-item' href=''>SAMRATH</a></li>
+                        <li class="nav-item"><a class='dropdown-item' href=''>BOOKLET (Hindi & English)
+                          </a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="dropdown-item hover:!text-[#605dba]" href="#">Annual Reports </a>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#"
+                        data-bs-toggle="dropdown">Events </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class='dropdown-item' href='./event-gallery.html'>Photos</a></li>
+                        <li class="nav-item"><a class='dropdown-item' href='./video-gallery.html'>Videos</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="dropdown-item hover:!text-[#605dba]" href="#">Success Stories </a>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#"
+                        data-bs-toggle="dropdown">Downloads
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class='dropdown-item' href=''>Wallpapers / Posters</a></li>
+                      </ul>
+                    </li>
                   </ul>
                   <!--/.dropdown-menu -->
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
-                    href="./blogs.html">Blogs</a>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
                     href="./activities.html">Activities</a>
                 </li>
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
-                    href="#" data-bs-toggle="dropdown">Our Events</a>
-                  <ul class="dropdown-menu mega-menu">
-                    <li class="mega-menu-content">
-                      <div class="flex flex-wrap mx-0 xl:mx-[-7.5px] lg:mx-[-7.5px]">
-                        <div class="xl:w-4/12 lg:w-3/12 w-ful3 flex-[0_0_auto] max-w-full">
-                          <h6 class="dropdown-header !text-[#605dba]">JAMMU and KASHMIR</h6>
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1 xl:pb-1 lg:pb-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jammu-and-Kashmir-Different-Activities'>Different
-                                Activities with Children, Youths and Women</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jammu-and-Kashmir-Relief-Material'>Covid-19 Relief
-                                Work</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jammu-and-Kashmir-Covid-time-Education'>Covid-19 Time
-                                Education</a></li>
-                          </ul>
-
-                          <h6 class="dropdown-header !text-[#605dba] xl:!mt-4 lg:!mt-4">HIMACHAL PRADESH</h6>
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Himachal-Pradesh-CH-Workshop-with-Students'>Composite
-                                Heritage with
-                                Students</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Himachal-Pradesh-Chetru-Vith-Mela'>Chetru Vith Mela</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Himachal-Pradesh-Different-Activites-in-Society'>Different
-                                Activities in
-                                Society</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Himachal-Pradesh-Children-and-Youth-Taking'>Children
-                                & Youth Taking Forward CH after ISD Initiatives</a></li>
-                          </ul>
-
-                          <h6 class="dropdown-header !text-[#605dba] xl:!mt-4 lg:!mt-4">ALLAHABAD</h6>
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Allahabad-Holi-Milan'>Holi Milan</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Allahabad-Summer-Camp-with-Children'>Summer Camp with
-                                Children</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Allahabad-Womens-Day'>8th March Women's Day</a></li>
-                          </ul>
-                        </div>
-
-                        <div
-                          class="xl:w-4/12 lg:w-3/12 w-ful3 flex-[0_0_auto] max-w-full xl:border-l lg:border-l border-[rgba(164,174,198,0.2)]">
-                          <h6 class="dropdown-header !text-[#605dba]">JHARKHAND</h6>
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-CH-Workshop-with-Youths-and-Students'>CH
-                                Workshop with
-                                Youths and Students</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Shaanti-Sadbhaavana-Yaatra-2019'>Shaanti-Sadbhaavana
-                                Yaatra</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Raska-Ransa-Poorn-2019-at-Gobar-Ghusi-Village'>Raska-Ransa
-                                Festival 2019</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Street-Play-and-Street-Theatre'>Street Play and
-                                Street
-                                Theatre</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Sohrai-Painting-Worksop-with-Students-at-Tangrain-Middle-School'>Sohrai
-                                Painting
-                                Worksop with Students</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Theater-Workshop-and-Play-Practice-with-Youths-2019'>Theater
-                                Workshop & Play Practice with Youths 2019</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jharkhand-Theatre-Workshop-with-Students-at-Tangrain-Middle-School'>Theatre
-                                Workshop with
-                                Students</a></li>
-                          </ul>
-
-                          <h6 class="dropdown-header !text-[#605dba] xl:!mt-4 lg:!mt-4">JAUNPUR</h6>
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jaunpur-Bal-Mela-2019'>Bal Mela-2019</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jaunpur-CH-Workshop-with-Madarsa-Students-2019'>Composite
-                                Heritage Workshop with Madrasa Students</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jaunpur-Womens-Day'>Women's Day</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Jaunpur-Relief-Material'>Covid-19 Relief Work</a>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div
-                          class="xl:w-4/12 lg:w-3/12 w-ful3 flex-[0_0_auto] max-w-full xl:border-l lg:border-l border-[rgba(164,174,198,0.2)]">
-                          <ul class="pl-0 list-none xl:columns-1 lg:columns-1">
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Accompaniment-at-Vembar-Tamilnadu-2020'>Accompaniment at
-                                Vembar Tamilnadu 2020</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Dhaka-Workshop-2019'>Backstopping WS
-                                DHAKA-2019</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Gender-Workshop-2020'>Gender Workshop at Delhi</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=OD-Workshop-Goa-2019'>OD Workshop Goa-2019</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Learning-Visit-Allahabad'>Learning Visit Allahabad</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=LCP-Youth-Convention-2018'>LCP Youth Convention 2018</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Interaction-with-Children-in-Kashmir'>Interaction with
-                                Children in Kashmir</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Learning-Visit-Jharkhand'>Learning Visit Jharkhand</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=ISD-Represented-at-Peace-Practitioners-Research-Conference'>ISD
-                                Represented at Peace Practitioners Research Conference</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=LCP-Meeting-in-Himachal'>LCP Meeting in Himachal</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=CH-workshop-in-Bangalore'>CH workshop in Bangalore</a>
-                            </li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=Sirjan-2018'>CH Sirjan 2018</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=LCP-Workshop-with-Youth-in-Himachal-2017'>CH LCP Workshop
-                                with Youth in Himachal 2017</a></li>
-                            <li><a class='dropdown-item hover:!text-[#605dba]'
-                                href='event-gallery.html?event=CH-Workshop-in-Dehradun-2017'>CH LCH Workshop in Dehradun
-                                2017</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <!--/.dropdown-menu -->
+                <li class="nav-item">
+                  <a class="nav-link !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
+                    href="./blogs.html">Blogs</a>
                 </li>
-                <li class="d-block d-md-none nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
+                    href="#" data-bs-toggle="dropdown">Connect With Us</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./join-our-team.html'>Join
+                        Our
+                        Team</a>
+                    </li>
+                    <li class="nav-item"><a class='dropdown-item hover:!text-[#605dba]' href='./westrivefor.html'>Intern
+                        with Us
+                      </a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link !text-[.85rem] !tracking-[normal] hover:!text-[#605dba] after:!text-[#605dba]"
                     href="./contact.html">Contact Us</a>
                 </li>
@@ -318,9 +183,9 @@
           <div class="navbar-other flex !ml-auto">
             <ul class="navbar-nav !flex-row items-center !ml-auto">
               <li class="nav-item hidden xl:block lg:block md:block">
-                <a href="./contact.html"
-                  class="btn btn-grape !text-white !bg-[#d71f21] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba]   active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] !rounded-[0.8rem]">Quick
-                  Connect</a>
+                <a href="./donations.html"
+                  class="btn btn-grape !text-white !bg-[#d71f21] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba]   active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] !rounded-[0.8rem]">Donate
+                  Now</a>
               </li>
               <li class="nav-item xl:!hidden lg:!hidden">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
@@ -335,30 +200,32 @@
       <!-- /.navbar -->
     </header>
     <!-- /header -->
-    <section class="wrapper pt-36 !bg-[#edf2fc]">
-      <div
-        class="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center">
-        <div class="flex flex-wrap mx-[-15px]">
-          <div class="md:w-9/12 lg:w-7/12 xl:w-5/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
-            <h1 class="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3"><abbr
-                title="Institute for social democracy">ISD</abbr> Strategy
-            </h1>
+    <section class="wrapper pt-24  overflow-hidden">
+      <div class="container py-24 lg:py-36 !text-center !relative">
+        <div class="absolute" style="top: -12%; left: 50%; transform: translateX(-50%);" data-cue="fadeIn"><img
+            src="assets/img/photos/blurry.png" alt="image"></div>
+        <div class="flex flex-wrap mx-[-15px] !relative">
+          <div class="lg:w-10/12 xl:w-10/12 xxl:w-9/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !relative">
+            <div data-cues="slideInDown" data-group="page-title">
+              <h1
+                class="xl:!text-[2.2rem] !text-[calc(1.145rem_+_2.34vw)] font-semibold !leading-[1.15] !mb-5 md:mx-10 lg:mx-0 xl:mx-0">
+                ISD Strategy
+              </h1>
+            </div>
+
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
-    <!-- /section -->
-
     <section class="wrapper !bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
       <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
 
         <!-- /.row -->
         <div class="flex flex-wrap mx-[-15px] md:mx-[-20px] lg:mx-[-20px] xl:mx-[-35px] !mt-[-50px]">
           <div
-            class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full !mx-auto !mt-[50px]">
+            class="xl:w-12/12 lg:w-12/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full !mx-auto !mt-[50px]">
             <h2 class="!text-[calc(1.345rem_+_1.14vw)] font-bold !leading-[1.25] xl:!text-[2.2rem] !mb-3">Our Strategy
             </h2>
             <p class="lead !text-[1.2rem] font-medium !leading-[1.65] xxl:!pr-8">A three-pronged strategy is proposed:
@@ -368,75 +235,99 @@
           </div>
           <!--/column -->
           <div
-            class="xl:w-7/12 lg:w-7/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
-            <ul class="timeline xl:table lg:table md:table !w-full !m-0 !p-0 !list-none">
-              <li class="relative !pl-8 xl:table-row xl:p-0 lg:table-row lg:p-0 md:table-row md:p-0">
-                <div
-                  class="timeline-info meta uppercase !tracking-[0.02rem] font-bold !text-[#aab0bc] !text-[0.7rem] whitespace-nowrap !mb-2 xl:text-right xl:table-cell xl:align-top xl:!pr-6 lg:text-right lg:table-cell lg:align-top lg:!pr-6 md:text-right md:table-cell md:align-top md:!pr-6">
-                  Strategy 1</div>
-                <div
-                  class="timeline-marker absolute w-[0.6rem] !text-[#3f78e0] left-0 inset-y-0 xl:relative xl:table-cell xl:align-top lg:relative lg:table-cell lg:align-top md:relative md:table-cell md:align-top before:w-[0.55rem] before:h-[0.55rem] before:content-[''] before:block before:absolute before:rounded-[100%] before:left-0 before:top-[0.2rem] before:bg-[#3f78e0] after:w-px after:content-[''] after:block after:absolute after:left-1 after:top-4 after:bottom-0 after:bg-[rgba(164,174,198,.2)]">
+            class="w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] md:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
+            <div class="offer-area">
+              <div class="offer-tabs">
+                <div class="offerslide fade active show" id="SOLUTIONS">
+
+                  <div class="offerItem active">
+                    <h4 class="offerItemTitle hide">Strategy 1</h4>
+                    <div class="offer-detail">
+                      <div class="row">
+
+                        <div class="col">
+                          <div class="offer-content">
+                            <h2>Strategy 1</h2>
+                            <h2>E-COMMERCES, RETAIL & B2B</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                              and typesetting industry. Lorem Ipsum has been
+                              the industry's standard dummy text ever since the
+                              1500s, when an unknown printer took a galley of
+                              type and scrambled it to make a type specimen
+                              book. It has survived not only five centuries, but
+                              also the leap into electronic typesetting.</p>
+                            <a href="javascript:;">Learn More </i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="offerItem">
+                    <h4 class="offerItemTitle">Strategy 2</h4>
+                    <div class="offer-detail">
+                      <div class="row">
+
+                        <div class="col">
+                          <div class="offer-content">
+                            <h2>Strategy 2</h2>
+                            <h2>HEALTHCARE & FITNESS</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                              and typesetting industry. Lorem Ipsum has been
+                              the industry's standard dummy text ever since the
+                              1500s, when an unknown printer took a galley of
+                              type and scrambled it to make a type specimen
+                              book. It has survived not only five centuries, but
+                              also the leap into electronic typesetting.</p>
+                            <a href="javascript:;">Learn More </i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="offerItem">
+                    <h4 class="offerItemTitle">Strategy 3</h4>
+                    <div class="offer-detail">
+                      <div class="row">
+
+                        <div class="col">
+                          <div class="offer-content">
+                            <h2>Strategy 3</h2>
+                            <h2>REAL ESTATE & PROPERTY</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing
+                              and typesetting industry. Lorem Ipsum has been
+                              the industry's standard dummy text ever since the
+                              1500s, when an unknown printer took a galley of
+                              type and scrambled it to make a type specimen
+                              book. It has survived not only five centuries, but
+                              also the leap into electronic typesetting.</p>
+                            <a href="javascript:;">Learn More </i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="table-cell align-top pb-8 xl:!pl-6 lg:!pl-6 md:!pl-6">
-                  <h3 class="timeline-title xl:!mt-[-0.25rem] lg:!mt-[-0.25rem] md:!mt-[-0.25rem]">Workshops for a
-                    Shared Future</h3>
-                  <p class="!m-0">Bringing together civil society groups and organizations committed to democracy and
-                    secularism in a series of meetings and workshops, to explore the dimensions of common heritage and
-                    build commitment to preserving and enriching it;
-                  </p>
-                </div>
-              </li>
-              <li class="relative !pl-8 xl:table-row xl:p-0 lg:table-row lg:p-0 md:table-row md:p-0">
-                <div
-                  class="timeline-info meta uppercase !tracking-[0.02rem] font-bold !text-[#aab0bc] !text-[0.7rem] whitespace-nowrap !mb-2 xl:text-right xl:table-cell xl:align-top xl:!pr-6 lg:text-right lg:table-cell lg:align-top lg:!pr-6 md:text-right md:table-cell md:align-top md:!pr-6">
-                  Strategy 2</div>
-                <div
-                  class="timeline-marker absolute w-[0.6rem] !text-[#3f78e0] left-0 inset-y-0 xl:relative xl:table-cell xl:align-top lg:relative lg:table-cell lg:align-top md:relative md:table-cell md:align-top before:w-[0.55rem] before:h-[0.55rem] before:content-[''] before:block before:absolute before:rounded-[100%] before:left-0 before:top-[0.2rem] before:bg-[#3f78e0] after:w-px after:content-[''] after:block after:absolute after:left-1 after:top-4 after:bottom-0 after:bg-[rgba(164,174,198,.2)]">
-                </div>
-                <div class="table-cell align-top pb-8 xl:!pl-6 lg:!pl-6 md:!pl-6">
-                  <h3 class="timeline-title xl:!mt-[-0.25rem] lg:!mt-[-0.25rem] md:!mt-[-0.25rem]">Uncovering Common
-                    Roots Through Art and Study</h3>
-                  <p class="!m-0">Carrying out training and research studies to explore and popularize cultural
-                    resources such as literature, folk tales, music and theatre, in order to uncover and defend cultural
-                    commonalities and make visible the secular and democratic values underlying shared traditions;
-                  </p>
-                </div>
-              </li>
-              <li class="relative !pl-8 xl:table-row xl:p-0 lg:table-row lg:p-0 md:table-row md:p-0">
-                <div
-                  class="timeline-info meta uppercase !tracking-[0.02rem] font-bold !text-[#aab0bc] !text-[0.7rem] whitespace-nowrap !mb-2 xl:text-right xl:table-cell xl:align-top xl:!pr-6 lg:text-right lg:table-cell lg:align-top lg:!pr-6 md:text-right md:table-cell md:align-top md:!pr-6">
-                  Strategy 3</div>
-                <div
-                  class="timeline-marker absolute w-[0.6rem] !text-[#3f78e0] left-0 inset-y-0 xl:relative xl:table-cell xl:align-top lg:relative lg:table-cell lg:align-top md:relative md:table-cell md:align-top before:w-[0.55rem] before:h-[0.55rem] before:content-[''] before:block before:absolute before:rounded-[100%] before:left-0 before:top-[0.2rem] before:bg-[#3f78e0]">
-                </div>
-                <div class="table-cell align-top xl:!pl-6 lg:!pl-6 md:!pl-6 !pb-0">
-                  <h3 class="timeline-title xl:!mt-[-0.25rem] lg:!mt-[-0.25rem] md:!mt-[-0.25rem]">Bringing Insights to
-                    the People</h3>
-                  <p class="!m-0">Converting the findings and outcomes of the above workshops and studies into simple,
-                    easily accessible materials for popular education and public mobilization, with a particular focus
-                    on rural communities in the Hindi-speaking belt of North India.
-                  </p>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <!--/column -->
         </div>
         <!-- /.row -->
       </div>
     </section>
+    <!--offer section area-->
+
+    <!--offer section area end-->
     <!-- /section -->
     <section class="wrapper!bg-[#ffffff]  border-b-[rgba(164,174,198,0.2)] border-b border-solid">
-      <div class="container pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+      <div class="container py-16 xl:py-20 lg:py-20 my:pb-20">
         <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] items-center">
+
           <div
-            class="xl:w-7/12 lg:w-7/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
-            <figure class="m-0 p-0"><img class="w-auto" src="./assets/img/illustrations/i8.jpg"
-                style="filter: hue-rotate(217deg);" alt="image"></figure>
-          </div>
-          <!--/column -->
-          <div
-            class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
+            class="xl:w-12/12 lg:w-12/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full">
             <h3 class="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-6 xxl:!pr-6">We
               walk hand in with:</h3>
             <ul class="progress-list !mt-3 m-0 p-0">
@@ -487,7 +378,8 @@
           <div class="widget !text-[#cacaca]">
             <img loading="lazy" class="!mb-4" src="assets/img/Institute-of-social-democracy-logo.png" alt="image">
             <p class="!mb-4">©
-              <script>document.write(new Date().getFullYear())</script> <br />Institute for Social Democracy. <br />All
+              <script>document.write(new Date().getFullYear())</script> <br />Institute for Social Democracy.
+              <br />All
               rights
               reserved.
             </p>
@@ -578,6 +470,24 @@
   </div>
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/theme.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $('.offerItemTitle').click(function () {
+
+        $(this).parents('.offerslide').children('.offerItem').removeClass('active');
+        $(this).parents('.offerslide').children('.offerItem').children('.offerItemTitle').removeClass('hide');
+        $(this).parent('.offerItem').addClass('active');
+        $(this).addClass('hide');
+
+      });
+
+
+
+    });
+  </script>
 </body>
 
 </html>

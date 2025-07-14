@@ -16,19 +16,7 @@
   <link rel="stylesheet" href="assets/css/colors/grape.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="preload" href="assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
-  <style>
-    .navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
-      background: #605dba !important;
-      border-color: #c9c7f8 !important;
-      color: #ffffff !important;
-    }
 
-    @media (max-width: 991.98px) {
-      .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
-        color: #ffffff !important;
-      }
-    }
-  </style>
 </head>
 
 <body class="!bg-[#f0f0f8]">
@@ -198,88 +186,121 @@
       <!-- /.navbar -->
     </header>
     <!-- /header -->
-    <section class="wrapper pt-24 !bg-[#edf2fc]">
-      <div class="container pt-md-5 !text-center">
-        <div class="flex flex-wrap mx-[-15px]">
-          <div class="md:w-9/12 lg:w-7/12 xl:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">
-            <h1 class="!text-[calc(1.365rem_+_1.38vw)] font-bold !leading-[1.2] xl:!text-[2.4rem] !mb-3">SACH</h1>
-            <p class="lead xxl:!px-10 !leading-[1.65] text-[0.9rem] font-medium">Popular Material</p>
+    <!-- /header -->
+    <section class="wrapper overflow-hidden">
+      <div class="container pt-24 lg:pt-36 pb-10 xl:pb-12 lg:pb-12 md:pb-12 !text-center !relative">
+        <div class="absolute" style="top: -12%; left: 50%; transform: translateX(-50%);" data-cue="fadeIn"><img
+            src="assets/img/photos/blurry.png" alt="image"></div>
+        <div class="flex flex-wrap mx-[-15px] !relative">
+          <div class="lg:w-10/12 xl:w-10/12 xxl:w-9/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !relative">
+            <div data-cues="slideInDown" data-group="page-title">
+              <h1
+                class="xl:!text-[2.2rem] !text-[calc(1.145rem_+_2.34vw)] font-semibold !leading-[1.15] !mb-5 md:mx-10 lg:mx-0 xl:mx-0">
+                Interviews Video Gallery </h1>
+              <p class="lead !text-[1.2rem] !leading-[1.6] !mb-8">Promoting respect, dialogue, & non-violent
+                transformation for all.</p>
+            </div>
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
     <!-- /section -->
-    <!-- Search + Year Filter Form -->
-    <div class="container pb-5">
-      <div class="flex mx-[15px]">
-        <form class="search-form w-full font-Unicons">
-          <div class="flex row">
-            <!-- Search Input -->
-            <div class="col-8 flex-[0_0_auto] !px-[15px]">
-              <input id="search-form" type="text"
-                class="form-control block w-full !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)]"
-                placeholder="Search Blog">
-            </div>
+    <div class="container-fluid">
+      <div class="flex flex-wrap">
 
-            <!-- Year Dropdown -->
-            <div class="col-4 flex-[0_0_auto] !px-[15px]">
-              <select
-                class="year-filter form-select w-full h-[calc(2.5rem_+_2px)] border rounded-[0.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] border-solid border-[rgba(8,60,130,0.07)] text-[#60697b]">
-                <option value="">Search by Year</option>
-                <option value="2025">2025</option>
-                <option value="2024">2024</option>
-                <option value="2023">2023</option>
-                <option value="2022">2022</option>
-                <option value="2021">2021</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-                <option value="2018">2018</option>
-                <option value="2017">2017</option>
-                <option value="2016">2016</option>
-                <option value="2015">2015</option>
-                <option value="2014">2014</option>
-                <option value="2013">2013</option>
-                <option value="2012">2012</option>
-                <option value="2011">2011</option>
-                <option value="2010">2010</option>
-                <option value="2009">2009</option>
-                <option value="2008">2008</option>
-                <option value="2007">2007</option>
-                <option value="2006">2006</option>
-                <option value="2005">2005</option>
-                <!-- Add or remove years as needed -->
-              </select>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="container pb-5">
-      <div class="flex flex-wrap mx-[-15px]">
 
-        <div class="xl:w-12/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!order-2">
+        <!-- Main Content Area -->
+        <div class="xl:w-12/12 w-full md:px-4">
 
-          <section class="wrapper">
-            <div class="card">
-              <div class="card-body flex-[1_1_auto] p-[40px]">
-                <div id="card-container" class="flex flex-wrap mx-[-15px] g-6 !mt-[-30px]">
-
+          <section class="pt-8">
+            <button id="backBtn" class="hidden mb-4 px-4 py-2 bg-blue-600 text-white rounded">&larr; Back</button>
+            <div class="container-fluid xl:!px-0 pb-24 xl:pb-32 lg:pb-32 md:pb-32">
+              <div class="container">
+                <div class="">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="c2yJN7q-QU0"></div>
+                      <h6> Theatre in Education</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="CP21gRZASL4"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Rajat Datta
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="XbDxMbhyxGQ"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Salil Misra
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="UJTGBPczv2U"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Najaf Haider
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="J54R2Daci_8"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Ramesh Rawat
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="9MijUUUzS-8"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Syed Ali Nadeem Rezavi
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="7HiXpE48B4Q"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Imtiaz Ahmad
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="Aw-N2pHa3Dk"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Salil Misra
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                    <!--/.swiper-slide -->
+                    <div class="col-md-3">
+                      <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="cZ4F_JWGjys"></div>
+                      <h6>Interview Series on Religious and Cultural Diversities | Prof. Syed Ali Nadeem Rezavi
+                        2020</h6>
+                    </div>
+                    <!--/.swiper-slide -->
+                  </div>
+                  <!--/.swiper-wrapper -->
                 </div>
-                <!-- /.row -->
+                <!-- /.swiper -->
               </div>
-              <!--/.card-body -->
+              <!-- /.swiper-container -->
             </div>
-            <!--/.card -->
+
           </section>
         </div>
-        <!-- /column -->
+
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
+
+  </div>
+
+  <!-- Modal -->
+  <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
+    <div class="relative w-full max-w-4xl mx-auto">
+      <button id="closeModal" class="absolute top-2 right-2 text-white text-2xl">&times;</button>
+      <button id="prevBtn"
+        class="absolute left-2 top-1/2 transform -translate-y-1/2 text-white text-3xl">&#8592;</button>
+      <img id="modalImage" src="" class="mx-auto max-h-[90vh]">
+      <button id="nextBtn"
+        class="absolute right-2 top-1/2 transform -translate-y-1/2 text-white text-3xl">&#8594;</button>
+    </div>
   </div>
   <!-- /.content-wrapper -->
   <footer class="!bg-[#21262c] shrink-0">
@@ -380,72 +401,11 @@
         d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
+
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/theme.js"></script>
 
-  <script>
-    let allCardsData = [];
 
-    fetch('data/sach.json')
-      .then(response => response.json())
-      .then(data => {
-        allCardsData = data;
-        renderCards(allCardsData);
-      });
-
-    function renderCards(data) {
-      const container = document.getElementById("card-container");
-      container.innerHTML = data.map(card => `
-    <a href="post-detail.html?id=${card.id}" class="card-wrapper xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px] no-underline text-inherit">
-      <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] hover:shadow-lg transition-shadow duration-300">
-        <img class="card-img-top" src="${card.image}" alt="image">
-        <div class="card-body flex-[1_1_auto] p-3">
-          <h5 class="card-title">${card.title}</h5>
-          <p class="card-text !mb-0">${card.description}</p>
-        </div>
-      </div>
-    </a>
-  `).join("");
-    }
-
-    // 🔍 Common filter function
-    function applyFilters() {
-      const searchInputs = document.querySelectorAll('#search-form, #search-form1');
-      const yearDropdowns = document.querySelectorAll('.year-filter');
-
-      // 🔍 Find first non-empty search input
-      let searchQuery = '';
-      for (let input of searchInputs) {
-        if (input.value.trim() !== '') {
-          searchQuery = input.value.toLowerCase();
-          break;
-        }
-      }
-
-      // 🎯 Get selected year
-      const selectedYear = [...yearDropdowns].find(d => d.value)?.value || '';
-
-      // 🧠 Apply filtering
-      const filtered = allCardsData.filter(card => {
-        const matchesText = card.title.toLowerCase().includes(searchQuery) || card.description.toLowerCase().includes(searchQuery);
-        const matchesYear = selectedYear === '' || card.year.toString() === selectedYear;
-        return matchesText && matchesYear;
-      });
-
-      renderCards(filtered);
-    }
-
-    // ✅ Attach single input listener for all search boxes
-    document.querySelectorAll('#search-form, #search-form1').forEach(input => {
-      input.addEventListener('input', applyFilters);
-    });
-
-    // ✅ Attach year filter (unchanged)
-    document.querySelectorAll('.year-filter').forEach(select => {
-      select.addEventListener('change', applyFilters);
-    });
-
-  </script>
 </body>
 
 </html>

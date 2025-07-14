@@ -25758,7 +25758,7 @@ button:focus {
 }
 
 .gradient-5 {
-  background-image: linear-gradient(43deg, #4158d0 0, #c850c0 46%, #ffcc70 100%);
+  background: #4158d0;
 }
 
 .gradient-5.btn-outline-gradient,
@@ -40021,4 +40021,8 @@ footer.bg-dark {
   .navbar .navbar-brand img {
     max-width: 90px;
   }
+}
+
+.pt-12 {
+  padding-top: calc(var(--spacing) * 12);
 }
