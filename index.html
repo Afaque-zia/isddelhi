@@ -220,7 +220,7 @@
             </div>
             <div class="xl:!flex lg:!flex md:!flex justify-center" data-cues="slideInDown" data-delay="600">
               <span><a href="./activities.html"
-                  class="btn btn-lg btn-grape !text-white !bg-[#d71f21] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba]   active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1 !mb-2 xl:!mb-0 lg:!mb-0 md:!mb-0 scroll">
+                  class="btn btn-lg btn-grape !text-white !bg-[#d71f21] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba]   active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem] xl:mx-1 lg:mx-1 md:mx-1 !mb-2 xl:!mb-0 lg:!mb-0 md:!mb-0 ">
                   View Activities <i
                     class="uil uil-arrow-down-right before:content-['\e944'] !ml-[0.3rem]"></i></a></span>
               <span><a href="./donations.html"
@@ -810,17 +810,89 @@
             <!-- /.table-responsive -->
           </div>
         </div>
+        <style>
+          .map-container {
+            position: relative;
+            width: 100%;
+          }
+
+          .india-map {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+
+          .state-point {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+          }
+
+          .state-point img {
+            width: 100%;
+          }
+
+          @keyframes bounce {
+
+            0%,
+            100% {
+              transform: translateY(0);
+            }
+
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+
+          .popup {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            display: none;
+            white-space: nowrap;
+          }
+        </style>
         <div
           class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 !mt-[-50px] items-center !mb-24 xl:!mb-[8rem] lg:!mb-[8rem] md:!mb-[8rem]">
           <div
-            class="xl:w-7/12 lg:w-7/12 w-full flex-[0_0_auto] !px-[15px] xl:px-0 lg:px-0 !mt-[50px] max-w-full !relative">
-            <div class="absolute"
-              style="top: 50%; left: 50%; width: 140%; height: auto; transform: translate(-50%,-50%); z-index:0"><img
-                class="w-full" src="assets/img/photos/blurry.png" alt="image"></div>
-            <figure class="!relative" style="z-index: 2;height: 500px;">
-              <img loading="lazy" style="position: absolute;animation: move5 10s infinite linear;"
-                src="assets/img/photos/mi1-1.png" alt="image">
-            </figure>
+            class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] !px-[15px] xl:px-0 lg:px-0 !mt-[50px] max-w-full !relative">
+            <div class="map-container">
+              <img src="./assets/img/india-map.png" width="100%" alt="India Map" class="india-map">
+              <div class="state-point" style="top: 5%; left: 23%;" data-info="Name: Kashmir Phone: 6666666666">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <div class="state-point" style="top: 23%; left: 30%;" data-info="Name: Rahul Phone: 9999999999">
+                <img src="./assets/img/navigation-icon.png" width="80" alt="">
+              </div>
+              <!-- UP -->
+              <div class="state-point" style="top: 19%; left: 37%;" data-info="Name: Anjali\nPhone: 8888888888">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <!-- Jharkhand -->
+              <div class="state-point" style="top: 42%; left: 58%;" data-info="Name: Kashmir Phone: 7777777777">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <div class="state-point" style="top: 31%; left: 43%;" data-info="Name: Kashmir Phone: 6666666666">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <div class="state-point" style="top: 12%; left: 31%;" data-info="Name: Delhi Phone: 6666666666">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <div class="state-point" style="top: 12%; left: 31%;" data-info="Name: Delhi Phone: 6666666666">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+              <div class="state-point" style="top: 42%; left: 32%;" data-info="Name: Delhi Phone: 6666666666">
+                <img src="./assets/img/navigation-icon.png" alt="" width="80">
+              </div>
+
+
+              <div class="popup" id="popup"></div>
+            </div>
+
           </div>
           <!--/column -->
           <div class="xl:w-4/12 lg:w-3/12 w-ful3 flex-[0_0_auto] !px-[15px] xl:px-0 lg:px-0 max-w-full !ml-auto">
@@ -1400,7 +1472,7 @@
             <div class="flex justify-center">
               <span><a href="contact.html"
                   class="btn btn-lg btn-grape !text-white !bg-[#d71f21] border-[#605dba] hover:text-white hover:bg-[#605dba] hover:!border-[#605dba]   active:text-white active:bg-[#605dba] active:border-[#605dba] disabled:text-white disabled:bg-[#605dba] disabled:border-[#605dba] btn-icon btn-icon-end !rounded-[0.8rem]"
-                  target="_blank">Join the Mission”<i
+                  target="_blank">Join the Mission<i
                     class="uil uil-arrow-up-right !ml-[.3rem] before:content-['\e950']"></i></a></span>
             </div>
             <!-- /div -->
@@ -1591,6 +1663,25 @@
   </div>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/theme.js"></script>
+  <script>
+    const points = document.querySelectorAll('.state-point');
+    const popup = document.getElementById('popup');
+
+    points.forEach(point => {
+      point.addEventListener('mouseenter', (e) => {
+        const info = point.getAttribute('data-info');
+        popup.innerText = info;
+        popup.style.display = 'block';
+        const rect = point.getBoundingClientRect();
+        popup.style.top = `${point.offsetTop - 40}px`;
+        popup.style.left = `${point.offsetLeft + 30}px`;
+      });
+
+      point.addEventListener('mouseleave', () => {
+        popup.style.display = 'none';
+      });
+    });
+  </script>
 </body>
 
 </html>

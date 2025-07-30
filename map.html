@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive India Map</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .india-map {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .state-point {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+        }
+
+        .state-point img {
+            width: 100%;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .popup {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            display: none;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="map-container">
+        <img src="./assets/img/india-map.png" width="100%" alt="India Map" class="india-map">
+
+        <div class="state-point" style="top: 25%; left: 30%;" data-info="Name: Rahul\nPhone: 9999999999">
+            <img src="./assets/img/navigation-icon.png" width="80" alt="">
+        </div>
+        <!-- UP -->
+        <div class="state-point" style="top: 22%; left: 37%;" data-info="Name: Anjali\nPhone: 8888888888">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Jharkhand -->
+        <div class="state-point" style="top: 45%; left: 58%;" data-info="Name: Mohit\nPhone: 7777777777">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Uttarakhand -->
+        <div class="state-point" style="top: 34%; left: 43%;" data-info="Name: Simran\nPhone: 6666666666">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Himachal -->
+        <div class="state-point" style="top: 15%; left: 31%;" data-info="Name: Simran\nPhone: 6666666666">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <div class="state-point" style="top: 15%; left: 31%;" data-info="Name: Simran\nPhone: 6666666666">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Himachal -->
+        <div class="state-point" style="top: 45%; left: 32%;" data-info="Name: Simran\nPhone: 6666666666">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Himachal -->
+        <div class="state-point" style="top: 8%; left: 23%;" data-info="Name: Simran\nPhone: 6666666666">
+            <img src="./assets/img/navigation-icon.png" alt="" width="80">
+        </div>
+        <!-- Himachal -->
+
+        <div class="popup" id="popup"></div>
+    </div>
+
+    <script>
+        const points = document.querySelectorAll('.state-point');
+        const popup = document.getElementById('popup');
+
+        points.forEach(point => {
+            point.addEventListener('mouseenter', (e) => {
+                const info = point.getAttribute('data-info');
+                popup.innerText = info;
+                popup.style.display = 'block';
+                const rect = point.getBoundingClientRect();
+                popup.style.top = `${point.offsetTop - 40}px`;
+                popup.style.left = `${point.offsetLeft + 30}px`;
+            });
+
+            point.addEventListener('mouseleave', () => {
+                popup.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+
+</html>
